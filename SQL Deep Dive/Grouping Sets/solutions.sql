@@ -14,6 +14,8 @@ GROUP BY
 order by e.dept_no
 
 
+
+
 /*
 *  Calculate the total average salary per department and the total using grouping sets
 *  Database: Employees

@@ -1,3 +1,4 @@
+-- Active: 1726645206669@@127.0.0.1@5432@Store
 /*
 * DB: Employees
 * Table: employees
@@ -11,9 +12,10 @@ SELECT ..., EXTRACT (YEAR FROM AGE(birth_date)) as "age" FROM employees;
 /*
 * DB: Employees
 * Table: employees
-* Question: How many people's name start with A and end with R?
+* Question: How many people's name start with letter A and end with letter R?
 * Expected output: 1846
 */
+
 
                                                   
 /*
@@ -22,6 +24,7 @@ SELECT ..., EXTRACT (YEAR FROM AGE(birth_date)) as "age" FROM employees;
 * Question: How many people's zipcode have a 2 in it?.
 * Expected output: 4211 
 */
+
 
 
 
